@@ -1,0 +1,12 @@
+@import 'colors';
+
+body {
+	margin: 0;
+	padding: 0;
+	background: $bg-color;
+	color: $text-color;
+}
+
+.main-container {
+	text-align: center;
+}
