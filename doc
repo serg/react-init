@@ -4,7 +4,7 @@
     npm i -S react react-dom
 
   #install development dependencies
-    npm i -D webpack webpack-dev-server babel-core babel-loader babel-preset-es2015 babel-preset-react html-loader html-webpack-plugin file-loader clean-webpack-plugin node-sass sass-loader css-loader extract-text-webpack-plugin
+    npm i -D webpack webpack-dev-server babel-core babel-loader babel-preset-env babel-preset-react html-loader html-webpack-plugin file-loader clean-webpack-plugin node-sass sass-loader css-loader extract-text-webpack-plugin
 
   #Sublime 3 packages (optional):
     Babel

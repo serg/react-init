@@ -21,7 +21,15 @@ module.exports = {
         use: {
           loader: 'babel-loader',
           options: {
-            presets: ['react', 'es2015']
+            presets: [
+              'react',
+              ['env', {
+                'targets': {
+                  'browsers': ['last 2 versions', '> 1%']
+                },
+                'modules': false
+              }]
+            ]
           }
         }
       },
