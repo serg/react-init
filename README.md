@@ -12,12 +12,12 @@ $ npm install
 ## Development mode
 Start the development server:
 ```
-$ npm run dev
+$ npm start
 ```
-The application will be available at the http://localhost:8080 link in browser.
+The application will be available at the [`localhost:8080`](http://localhost:8080) link in browser.
 ## Production mode
 To build the application for production use this command:
 ```
-$ npm run prod
+$ npm run build
 ```
 All created files will be available at the `dist` folder of project.
