@@ -1,8 +1,6 @@
 # react-init
-A starter kit for creating the React JS applications.
-Inspired by video tutorials from [@mschwarzmueller](https://github.com/mschwarzmueller) (👍 the "german quality").
-You can explore his very useful tutorials for the different IT directions on his [YouTube channel](https://www.youtube.com/channel/UCSJbGtTlrDami-tDGPUV9-w).
-Many thanks to Maximilian.
+A simple starter kit for creating the React JS applications.
+
 ## Installation
 Install the dependencies and devDependencies:
 ```
