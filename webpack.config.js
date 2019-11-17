@@ -1,7 +1,7 @@
 var path = require('path');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 var MiniCssExtractPlugin = require('mini-css-extract-plugin');
-var CleanWebpackPlugin = require('clean-webpack-plugin');
+var { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 var config = {
   entry: './src/index.js',
@@ -58,7 +58,7 @@ module.exports = (env, argv) => {
   var isProduction = argv.mode === 'production';
 
   if (isProduction) {
-    config.plugins.push(new CleanWebpackPlugin(['dist']));
+    config.plugins.push(new CleanWebpackPlugin());
   }
 
   return config;
