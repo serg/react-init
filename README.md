@@ -32,7 +32,7 @@ $ npm i -S react react-dom
 
 ### Install development dependencies
 ```
-$ npm i -D @babel/core @babel/preset-env @babel/preset-react babel-loader clean-webpack-plugin css-loader file-loader html-loader html-webpack-plugin mini-css-extract-plugin node-sass sass-loader webpack webpack-cli webpack-dev-server
+$ npm i -D @babel/core @babel/preset-env @babel/preset-react babel-loader clean-webpack-plugin css-loader file-loader html-loader html-webpack-plugin@next mini-css-extract-plugin node-sass sass-loader webpack webpack-cli webpack-dev-server
 ```
 
 ### Install Sublime 3 packages
