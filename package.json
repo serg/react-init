@@ -12,9 +12,9 @@
   "devDependencies": {
     "@snowpack/plugin-react-refresh": "^2.5.0",
     "@snowpack/plugin-sass": "^1.4.0",
-    "@snowpack/plugin-webpack": "^2.3.1",
-    "clean-webpack-plugin": "^4.0.0-alpha.0",
-    "snowpack": "^3.5.7"
+    "@snowpack/plugin-webpack": "^3.0.0",
+    "clean-webpack-plugin": "^4.0.0",
+    "snowpack": "^3.8.8"
   },
   "dependencies": {
     "react": "^17.0.2",
