@@ -1,6 +1,6 @@
 import React from 'react';
 
-import reactLogo from '../img/react-logo.png';
+import reactLogo from '/img/react-logo.png';
 
 export default () => {
   return (

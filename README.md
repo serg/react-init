@@ -13,7 +13,7 @@ Start the development server:
 ```
 $ npm start
 ```
-The application will be available at the [`localhost:8080`](http://localhost:8080) link in browser.
+The application will be available at the [`localhost:3000`](http://localhost:3000) link in browser.
 
 ## Production mode
 To build the application for production use this command:
@@ -32,7 +32,7 @@ $ npm i -S react react-dom
 
 ### Install development dependencies
 ```
-$ npm i -D snowpack @snowpack/plugin-sass @snowpack/plugin-react-refresh @snowpack/plugin-webpack clean-webpack-plugin
+$ npm i -D vite @vitejs/plugin-react @vitejs/plugin-legacy sass terser
 ```
 
 ### Install Sublime 3 packages
