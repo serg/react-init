@@ -1,10 +1,14 @@
 import React from 'react';
-import { render } from 'react-dom';
+import { createRoot } from 'react-dom/client';
 
 import './css/main.scss';
 import App from './components/App';
 
-render(<App/>, window.document.getElementById('app'));
+createRoot(window.document.getElementById('app')).render(
+  <React.StrictMode>
+    <App/>
+  </React.StrictMode>
+);
 
 // Hot Module Replacement (HMR) - Remove this snippet to remove HMR.
 // Learn more: https://www.snowpack.dev/concepts/hot-module-replacement
