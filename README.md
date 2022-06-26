@@ -20,7 +20,7 @@ To build the application for production use this command:
 ```
 $ npm run build
 ```
-All created files will be available at the `build` folder of project.
+All created files will be available at the `dist` folder of project.
 
 ## Manual installation
 This part about manual installation of packages for project. This is a showcase about how to create project from scratch in case if the `package.json` file doesn't contain any packages.
