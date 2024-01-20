@@ -13,7 +13,7 @@ Start the development server:
 ```
 $ npm start
 ```
-The application will be available at the [`localhost:3000`](http://localhost:3000) link in browser.
+The application will be available at the [`localhost:5173`](http://localhost:5173) link in browser.
 
 ## Production mode
 To build the application for production use this command:
@@ -21,6 +21,13 @@ To build the application for production use this command:
 $ npm run build
 ```
 All created files will be available at the `dist` folder of project.
+
+## Preview results after build
+Run this command:
+```
+$ npm run preview
+```
+The application will be available at the [`localhost:4173`](http://localhost:4173) link in browser.
 
 ## Manual installation
 This part about manual installation of packages for project. This is a showcase about how to create project from scratch in case if the `package.json` file doesn't contain any packages.
